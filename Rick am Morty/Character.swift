@@ -12,10 +12,5 @@ struct Character {
     var imageName: String
     var name: String
     var status: String
-
-    init() {
-        imageName = "159"
-        name = "Rick Sanchez"
-        status = "Alive"
-    }
+    var details: [DetailViewModel]
 }
